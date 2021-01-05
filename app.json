@@ -1,6 +1,10 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/menu/menu",
+    "pages/shoppingCart/shoppingCart",
+    "pages/order/order",
+    "pages/mine/mine",
     "pages/logs/logs"
   ],
   "window":{
@@ -9,8 +13,44 @@
     "navigationBarBackgroundColor": "#0094ff",
     "navigationBarTitleText": "快饱饱餐厅系统",
     "navigationBarTextStyle":"white",
-    "backgroundColor": "#A9A9A9"
-
+    "backgroundColor": "#999999"
+  },
+  "tabBar": {
+    "list": [
+    {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icon/mainpage.png",
+      "selectedIconPath": "icon/mainpage-o.png"
+    },
+    {
+      "pagePath": "pages/menu/menu",
+      "text": "菜单",
+      "iconPath": "icon/tableware.png",
+      "selectedIconPath": "icon/tableware-o.png"
+    },
+    {
+      "pagePath": "pages/shoppingCart/shoppingCart",
+      "text": "购物车",
+      "iconPath": "icon/cart.png",
+      "selectedIconPath": "icon/cart-o.png"
+    },
+    {
+      "pagePath": "pages/order/order",
+      "text": "订单",
+      "iconPath": "icon/order.png",
+      "selectedIconPath": "icon/order-o.png"
+    },
+    {
+      "pagePath": "pages/mine/mine",
+      "text": "个人主页",
+      "iconPath": "icon/user.png",
+      "selectedIconPath": "icon/user-o.png"
+    }
+    ],
+    "color":"#FFFFFF",
+    "selectedColor":"#000000",
+    "backgroundColor": "#0094FF"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
